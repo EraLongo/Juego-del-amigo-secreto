@@ -160,3 +160,27 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+.button-container {
+    display: flex;
+    gap: 10px; /* Espacio entre los botones */
+}
+
+.button-draw, .button-reset {
+    background-color: #4CAF50; /* Fondo verde para el botón */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-reset {
+    background-color: #FF6347; /* Fondo rojo para el botón de reiniciar */
+}
+
+.button-draw:hover, .button-reset:hover {
+    background-color: #45a049; /* Color de fondo cuando el mouse pasa sobre los botones */
+}
+
